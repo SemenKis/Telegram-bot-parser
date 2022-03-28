@@ -1,0 +1,32 @@
+[
+    {
+        "Date and city": "28 мар, Пн, Балашиха",
+        "team": "АВГ",
+        "team_opposite": "ММГ",
+        "time": "19:30"
+    },
+    {
+        "Date and city": "2 апр, Сб, Санкт-Петербург",
+        "team": "СКА",
+        "team_opposite": "ЦСК",
+        "time": "17:00"
+    },
+    {
+        "Date and city": "4 апр, Пн, Санкт-Петербург",
+        "team": "СКА",
+        "team_opposite": "ЦСК",
+        "time": "19:30"
+    },
+    {
+        "Date and city": "6 апр, Ср, Москва",
+        "team": "ЦСК",
+        "team_opposite": "СКА",
+        "time": "19:30"
+    },
+    {
+        "Date and city": "8 апр, Пт, Москва",
+        "team": "ЦСК",
+        "team_opposite": "СКА",
+        "time": "19:30"
+    }
+]
