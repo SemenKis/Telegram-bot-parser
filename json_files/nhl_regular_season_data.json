@@ -1,0 +1,378 @@
+[
+    {
+        "conference": "Eastern",
+        "division": "Metropolitan",
+        "records": [
+            {
+                "team-position": "1",
+                "team-name": "Carolina Hurricanes",
+                "GP": 67,
+                "W": 44,
+                "ROW": 43,
+                "OT": 8,
+                "L": 15,
+                "GF": 225,
+                "PTS": 96
+            },
+            {
+                "team-position": "2",
+                "team-name": "New York Rangers",
+                "GP": 67,
+                "W": 43,
+                "ROW": 39,
+                "OT": 5,
+                "L": 19,
+                "GF": 206,
+                "PTS": 91
+            },
+            {
+                "team-position": "3",
+                "team-name": "Pittsburgh Penguins",
+                "GP": 68,
+                "W": 40,
+                "ROW": 37,
+                "OT": 10,
+                "L": 18,
+                "GF": 227,
+                "PTS": 90
+            },
+            {
+                "team-position": "4",
+                "team-name": "Washington Capitals",
+                "GP": 68,
+                "W": 37,
+                "ROW": 32,
+                "OT": 10,
+                "L": 21,
+                "GF": 225,
+                "PTS": 84
+            },
+            {
+                "team-position": "5",
+                "team-name": "Columbus Blue Jackets",
+                "GP": 67,
+                "W": 32,
+                "ROW": 28,
+                "OT": 5,
+                "L": 30,
+                "GF": 219,
+                "PTS": 69
+            },
+            {
+                "team-position": "6",
+                "team-name": "New York Islanders",
+                "GP": 65,
+                "W": 29,
+                "ROW": 28,
+                "OT": 9,
+                "L": 27,
+                "GF": 178,
+                "PTS": 67
+            },
+            {
+                "team-position": "7",
+                "team-name": "New Jersey Devils",
+                "GP": 66,
+                "W": 24,
+                "ROW": 21,
+                "OT": 5,
+                "L": 37,
+                "GF": 203,
+                "PTS": 53
+            },
+            {
+                "team-position": "8",
+                "team-name": "Philadelphia Flyers",
+                "GP": 67,
+                "W": 21,
+                "ROW": 21,
+                "OT": 11,
+                "L": 35,
+                "GF": 172,
+                "PTS": 53
+            }
+        ]
+    },
+    {
+        "conference": "Eastern",
+        "division": "Atlantic",
+        "records": [
+            {
+                "team-position": "1",
+                "team-name": "Florida Panthers",
+                "GP": 66,
+                "W": 45,
+                "ROW": 42,
+                "OT": 6,
+                "L": 15,
+                "GF": 271,
+                "PTS": 96
+            },
+            {
+                "team-position": "2",
+                "team-name": "Tampa Bay Lightning",
+                "GP": 66,
+                "W": 42,
+                "ROW": 40,
+                "OT": 6,
+                "L": 18,
+                "GF": 219,
+                "PTS": 90
+            },
+            {
+                "team-position": "3",
+                "team-name": "Toronto Maple Leafs",
+                "GP": 66,
+                "W": 42,
+                "ROW": 40,
+                "OT": 5,
+                "L": 19,
+                "GF": 245,
+                "PTS": 89
+            },
+            {
+                "team-position": "4",
+                "team-name": "Boston Bruins",
+                "GP": 66,
+                "W": 41,
+                "ROW": 39,
+                "OT": 5,
+                "L": 20,
+                "GF": 204,
+                "PTS": 87
+            },
+            {
+                "team-position": "5",
+                "team-name": "Detroit Red Wings",
+                "GP": 66,
+                "W": 26,
+                "ROW": 23,
+                "OT": 8,
+                "L": 32,
+                "GF": 189,
+                "PTS": 60
+            },
+            {
+                "team-position": "6",
+                "team-name": "Buffalo Sabres",
+                "GP": 67,
+                "W": 24,
+                "ROW": 21,
+                "OT": 10,
+                "L": 33,
+                "GF": 184,
+                "PTS": 58
+            },
+            {
+                "team-position": "7",
+                "team-name": "Ottawa Senators",
+                "GP": 66,
+                "W": 23,
+                "ROW": 22,
+                "OT": 6,
+                "L": 37,
+                "GF": 171,
+                "PTS": 52
+            },
+            {
+                "team-position": "8",
+                "team-name": "Montréal Canadiens",
+                "GP": 67,
+                "W": 18,
+                "ROW": 16,
+                "OT": 11,
+                "L": 38,
+                "GF": 173,
+                "PTS": 47
+            }
+        ]
+    },
+    {
+        "conference": "Western",
+        "division": "Central",
+        "records": [
+            {
+                "team-position": "1",
+                "team-name": "Colorado Avalanche",
+                "GP": 67,
+                "W": 47,
+                "ROW": 44,
+                "OT": 6,
+                "L": 14,
+                "GF": 255,
+                "PTS": 100
+            },
+            {
+                "team-position": "2",
+                "team-name": "Minnesota Wild",
+                "GP": 65,
+                "W": 41,
+                "ROW": 36,
+                "OT": 4,
+                "L": 20,
+                "GF": 241,
+                "PTS": 86
+            },
+            {
+                "team-position": "3",
+                "team-name": "Nashville Predators",
+                "GP": 67,
+                "W": 39,
+                "ROW": 37,
+                "OT": 4,
+                "L": 24,
+                "GF": 221,
+                "PTS": 82
+            },
+            {
+                "team-position": "4",
+                "team-name": "St. Louis Blues",
+                "GP": 65,
+                "W": 36,
+                "ROW": 34,
+                "OT": 9,
+                "L": 20,
+                "GF": 230,
+                "PTS": 81
+            },
+            {
+                "team-position": "5",
+                "team-name": "Dallas Stars",
+                "GP": 65,
+                "W": 37,
+                "ROW": 33,
+                "OT": 3,
+                "L": 25,
+                "GF": 192,
+                "PTS": 77
+            },
+            {
+                "team-position": "6",
+                "team-name": "Winnipeg Jets",
+                "GP": 67,
+                "W": 32,
+                "ROW": 31,
+                "OT": 10,
+                "L": 25,
+                "GF": 209,
+                "PTS": 74
+            },
+            {
+                "team-position": "7",
+                "team-name": "Chicago Blackhawks",
+                "GP": 67,
+                "W": 24,
+                "ROW": 20,
+                "OT": 10,
+                "L": 33,
+                "GF": 184,
+                "PTS": 58
+            },
+            {
+                "team-position": "8",
+                "team-name": "Arizona Coyotes",
+                "GP": 66,
+                "W": 20,
+                "ROW": 19,
+                "OT": 5,
+                "L": 41,
+                "GF": 168,
+                "PTS": 45
+            }
+        ]
+    },
+    {
+        "conference": "Western",
+        "division": "Pacific",
+        "records": [
+            {
+                "team-position": "1",
+                "team-name": "Calgary Flames",
+                "GP": 66,
+                "W": 40,
+                "ROW": 38,
+                "OT": 8,
+                "L": 18,
+                "GF": 232,
+                "PTS": 88
+            },
+            {
+                "team-position": "2",
+                "team-name": "Los Angeles Kings",
+                "GP": 68,
+                "W": 36,
+                "ROW": 33,
+                "OT": 9,
+                "L": 23,
+                "GF": 196,
+                "PTS": 81
+            },
+            {
+                "team-position": "3",
+                "team-name": "Edmonton Oilers",
+                "GP": 67,
+                "W": 37,
+                "ROW": 34,
+                "OT": 5,
+                "L": 25,
+                "GF": 233,
+                "PTS": 79
+            },
+            {
+                "team-position": "4",
+                "team-name": "Vegas Golden Knights",
+                "GP": 68,
+                "W": 36,
+                "ROW": 32,
+                "OT": 4,
+                "L": 28,
+                "GF": 216,
+                "PTS": 76
+            },
+            {
+                "team-position": "5",
+                "team-name": "Vancouver Canucks",
+                "GP": 68,
+                "W": 32,
+                "ROW": 29,
+                "OT": 9,
+                "L": 27,
+                "GF": 193,
+                "PTS": 73
+            },
+            {
+                "team-position": "6",
+                "team-name": "San Jose Sharks",
+                "GP": 65,
+                "W": 29,
+                "ROW": 27,
+                "OT": 8,
+                "L": 28,
+                "GF": 173,
+                "PTS": 66
+            },
+            {
+                "team-position": "7",
+                "team-name": "Anaheim Ducks",
+                "GP": 68,
+                "W": 27,
+                "ROW": 23,
+                "OT": 11,
+                "L": 30,
+                "GF": 191,
+                "PTS": 65
+            },
+            {
+                "team-position": "8",
+                "team-name": "Seattle Kraken",
+                "GP": 66,
+                "W": 21,
+                "ROW": 19,
+                "OT": 6,
+                "L": 39,
+                "GF": 176,
+                "PTS": 48
+            }
+        ]
+    }
+]

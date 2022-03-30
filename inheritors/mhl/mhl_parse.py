@@ -3,13 +3,16 @@ from main_parse_class import *
 
 class MhlParser(Parser):
     def __init__(self, *args, **kwargs):
-        super().__init__(args, kwargs)
         self.args = args
         self.kwargs = kwargs
 
+    def get_request(self):
+        response = requests.get(self.args[0], headers=self.kwargs)
+        self.src = response.text
+
     def parse_data(self):
-        super().parse_data()
-        matches_blocks = self.soup.find(class_='b_calendar_items_group active').find_all(class_='calendar_dayitems')
+        soup = BeautifulSoup(self.src, 'lxml')
+        matches_blocks = soup.find(class_='b_calendar_items_group active').find_all(class_='calendar_dayitems')
         # print(matches_blocks)
         list_of_matches = []
         for block in matches_blocks:
@@ -33,15 +36,9 @@ class MhlParser(Parser):
                 list_of_matches.append(match_info)
 
         # print(list_of_matches)
-        # super().convert_to_json('../../json_files/mhl_playoffs_data.json', list_of_matches) # если файл вызывается из вне
-        super().convert_to_json('json_files/mhl_playoffs_data.json', list_of_matches)
+        super().convert_to_json('../../json_files/mhl_playoffs_data.json', list_of_matches) # если файл вызывается из вне
+        #super().convert_to_json('json_files/mhl_playoffs_data.json', list_of_matches)
 
-
-
-# parser = MhlParser('https://mhl.khl.ru/calendar/', '../html/mhl_calendar.html', accept='*/*', user_agent=
-# 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36')
-# parser.get_request()
-# parser.parse_data()
 
 def main():
     parser = MhlParser('https://mhl.khl.ru/calendar/', accept='*/*', user_agent=
@@ -50,5 +47,8 @@ def main():
     parser.parse_data()
 
     print(__name__)
+
+
+
 
 

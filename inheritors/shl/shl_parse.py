@@ -2,13 +2,16 @@ from main_parse_class import *
 
 class ShlMatchesParser(Parser):
     def __init__(self, *args, **kwargs):
-        super().__init__(args, kwargs)
         self.args = args
         self.kwargs = kwargs
 
+    def get_request(self):
+        response = requests.get(self.args[0], headers=self.kwargs)
+        self.src = response.text
+
     def parse_data(self):
-        super().parse_data()
-        date_container = self.soup.find_all(class_='rmss_c-schedule-game__date-container')
+        soup = BeautifulSoup(self.src, 'lxml')
+        date_container = soup.find_all(class_='rmss_c-schedule-game__date-container')
         matches_info = []
         for date_item in date_container:
             date = date_item.find(class_='rmss_t-styled__inner')
@@ -44,10 +47,11 @@ accept = '*/*'
 user_agent = 'mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'
 
 def main():
-
     shl = ShlMatchesParser('https://www.shl.se/spelschema/SHL_2021_regular', 'html/shl_matches_info.html', accept=accept, user_agent=user_agent)
     shl.get_request()
     if shl.parse_data() == 0:
         return False
+
+
 
 
