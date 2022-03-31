@@ -11,7 +11,7 @@ class NhlRegularSeasonParser(Parser):
         src = requests.get(self.args[0], headers=self.kwargs)
         # print(response.text)
         response = src.json()
-        with open('nhl_regular_season.json', 'w', encoding='utf-8') as file:
+        with open('nhl/nhl_regular_season.json', 'w', encoding='utf-8') as file:
             json.dump(response, file, ensure_ascii=False, indent=4)
 
     def parse_data(self):
