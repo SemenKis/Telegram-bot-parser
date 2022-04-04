@@ -10,16 +10,16 @@ from abc import abstractmethod
 class Parser(ABC):
 
     @abstractmethod
-    def get_request(self) -> None:
+    def _get_request(self) -> None:
         raise NotImplementedError
 
 
     @abstractmethod
-    def parse_data(self) -> None:
+    def _parse_data(self) -> None:
         raise NotImplementedError
 
 
-    def convert_to_json(self, path, obj):
+    def _convert_to_json(self, path, obj):
         with open(path, 'w', encoding='utf-8') as file:
             json.dump(obj, file, indent=4, ensure_ascii=False)
             if os.path.exists(path) == path:

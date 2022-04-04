@@ -1,0 +1,62 @@
+[
+    {
+        "date": "Сегодня",
+        "records": [
+            {
+                "team": "СКА",
+                "team-opposite": "ЦСК",
+                "time": "19:30"
+            }
+        ]
+    },
+    {
+        "date": "5 апр, Вт",
+        "records": [
+            {
+                "team": "ММГ",
+                "team-opposite": "ТРК",
+                "time": "17:00"
+            }
+        ]
+    },
+    {
+        "date": "6 апр, Ср",
+        "records": [
+            {
+                "team": "ЦСК",
+                "team-opposite": "СКА",
+                "time": "19:00"
+            }
+        ]
+    },
+    {
+        "date": "7 апр, Чт",
+        "records": [
+            {
+                "team": "ТРК",
+                "team-opposite": "ММГ",
+                "time": "17:00"
+            }
+        ]
+    },
+    {
+        "date": "8 апр, Пт",
+        "records": [
+            {
+                "team": "ЦСК",
+                "team-opposite": "СКА",
+                "time": "19:30"
+            }
+        ]
+    },
+    {
+        "date": "9 апр, Сб",
+        "records": [
+            {
+                "team": "ТРК",
+                "team-opposite": "ММГ",
+                "time": "15:00"
+            }
+        ]
+    }
+]

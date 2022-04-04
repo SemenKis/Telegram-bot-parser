@@ -6,47 +6,62 @@ class MhlParser(Parser):
         self.args = args
         self.kwargs = kwargs
 
-    def get_request(self):
+    def _get_request(self):
         response = requests.get(self.args[0], headers=self.kwargs)
         self.src = response.text
 
-    def parse_data(self):
+    def _parse_data(self):
         soup = BeautifulSoup(self.src, 'lxml')
-        matches_blocks = soup.find(class_='b_calendar_items_group active').find_all(class_='calendar_dayitems')
-        # print(matches_blocks)
-        list_of_matches = []
-        for block in matches_blocks:
-           # print(block)
-            date = block.find(class_='b_calendar_items_day_date ib')
-            match = block.find(class_='row').find_all(class_='col-xs-12')
-            # print(match_info)
-            for item in match:
-                # print(item)
-                team = item.find(class_='b_calendar_item_col b_calendar_item_col-40 b_calendar_item_col-left').find(class_='b_calendar_item_team_name')
-                team_opposite = item.find(class_='b_calendar_item_col b_calendar_item_col-right b_calendar_item_col-40 align-right').find(class_='b_calendar_item_team_name')
-                print(team.text ,team_opposite.text, date.text)
 
-                match_info = {
-                    'Date and city': date.text,
-                    'team': team.text,
-                    'team_opposite': team_opposite.text,
-                    'time': ''
-                }
+        calendar_items = soup.find('div', class_='b_calendar_items_group active')
+        calendar_item = calendar_items.find_all(class_='calendar_dayitems')
+        # print(calendar_item)
+        matches_info = []
+        for item in calendar_item:
 
-                list_of_matches.append(match_info)
+            match = {}
 
-        # print(list_of_matches)
-        super().convert_to_json('../../json_files/mhl_playoffs_data.json', list_of_matches) # если файл вызывается из вне
-        #super().convert_to_json('json_files/mhl_playoffs_data.json', list_of_matches)
+            date = item.find(class_='b_calendar_items_day_date ib')
+            teams = item.find(class_='row').find_all(class_='col-xs-12 col-lg-6')
+            match['date'] = date.text
+            match['records'] = []
+            for team_cont in teams:
+                team = team_cont.find(class_='b_calendar_item_col b_calendar_item_col-left').find(class_='b_calendar_item_team_name')
+                # team_logo = team_cont.find(class_='b_calendar_item_col b_calendar_item_col-left').find(class_='b_calendar_item_team_logo').find('img')
+                match_date = team_cont.find(class_='b_calendar_item_game_date')
+                match_time = team_cont.find(class_='b_calendar_item_game_time')
+                team_opposite = team_cont.find(class_='b_calendar_item_col b_calendar_item_col-right').find(class_='b_calendar_item_team_name')
+                team_opposite_logo = team_cont.find(class_='b_calendar_item_col b_calendar_item_col-right').find(class_='b_calendar_item_team_logo').find('img')
+
+                match['records'].append(
+                    {
+                        "Date and city": match_date.text,
+                        "team": team.text,
+                        "team-opposite": team_opposite.text,
+                        "time": match_time.text
+                    }
+                )
+
+            matches_info.append(match)
+
+        # super()._convert_to_json('../../json_files/mhl_playoffs_data.json', matches_info) # если файл вызывается из вне
+        super()._convert_to_json('json_files/mhl_playoffs_data.json', matches_info)
+
+    def call(self):
+        self._get_request()
+        self._parse_data()
 
 
 def main():
     parser = MhlParser('https://mhl.khl.ru/calendar/', accept='*/*', user_agent=
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36')
-    parser.get_request()
-    parser.parse_data()
+    parser.call()
 
     print(__name__)
+
+main()
+
+
 
 
 
