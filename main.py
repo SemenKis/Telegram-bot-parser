@@ -17,7 +17,8 @@ def menu_buttons():
     button_2 = types.InlineKeyboardButton(text='KHL', callback_data='khl')
     button_3 = types.InlineKeyboardButton(text='SHL', callback_data='shl')
     button_4 = types.InlineKeyboardButton(text='NHL', callback_data='nhl')
-    kb.add(button_1, button_2, button_3, button_4)
+    button_5 = types.InlineKeyboardButton(text='VHL', callback_data='vhl')
+    kb.add(button_1, button_2, button_3, button_4, button_5)
     return kb
 
 def game_buttons(team):
@@ -50,6 +51,9 @@ def get_answer(call):
 
     if call.data == 'nhl':
         bot.send_message(call.message.chat.id, '👍🏻', reply_markup=game_buttons('nhl'))
+
+    if call.data == 'vhl':
+        bot.send_message(call.message.chat.id, '👍🏻', reply_markup=game_buttons('vhl'))
 
 def get_caller(text, chat):
     caller.call_parser(text, chat)

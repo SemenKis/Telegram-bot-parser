@@ -1,11 +1,10 @@
 import telebot
 import json
-from inheritors.mhl import mhl_parse
-from inheritors.mhl import mhl_regular_season_parser
-from inheritors.khl import khl_parse
-from inheritors.khl import khl_regular_season_parser
+from inheritors.mhl import mhl_parse, mhl_regular_season_parser
+from inheritors.khl import khl_parse, khl_regular_season_parser
 # from inheritors.shl import shl_parse
 from inheritors.nhl import nhl_regular_season_parser
+from inheritors.vhl import vhl_regular_season_parser
 
 bot = telebot.TeleBot('5254316199:AAG0259Rkkzmb179uY6tGW3fSQ8jLy5iBhA')
 
@@ -23,6 +22,21 @@ def read_regular_season_json(path, chat):
         data = json.load(file)
         for item in data:
             bot.send_message(chat, f"<b>{item['conference']}</b>", parse_mode='html')
+            for team in item['records']:
+                bot.send_photo(chat, f"{team['logo']}")
+                bot.send_message(chat, f"{team['team-position']},  {team['team-name']} \n"
+                                       f"GP: {team['GP']} \n"
+                                       f"W: {team['W']} \n"
+                                       f"ROW: {team['ROW']} \n"
+                                       f"OT: {team['OT']} \n"
+                                       f"L: {team['L']} \n"
+                                       f"GF: {team['GF']} \n"
+                                       f"PTS: {team['PTS']}")
+
+def read_vhl_regular_season_json(path, chat):
+    with open(path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+        for item in data:
             for team in item['records']:
                 bot.send_photo(chat, f"{team['logo']}")
                 bot.send_message(chat, f"{team['team-position']},  {team['team-name']} \n"
@@ -69,6 +83,10 @@ def call_parser(parser_name, chat):
         return _nhl_playoffs(parser_name, chat)
     if parser_name == 'nhl regular season':
         return _nhl_regular_season(parser_name, chat)
+    if parser_name == 'vhl playoffs':
+        return _vhl_playoffs(parser_name, chat)
+    if parser_name == 'vhl regular season':
+        return _vhl_regular_season(parser_name, chat)
 
 def _mhl_playoffs(parser_name, chat):
     print(parser_name)
@@ -93,18 +111,26 @@ def _shl_playoffs(parser_name, chat):
     print(parser_name)
     bot.send_message(chat, "sorry, we haven't information")
 
-# def _shl_regular_season(parser_name, chat):
-#     print(parser_name)
-#     if shl_parse.main() == False:
-#         bot.send_message(chat, "sorry, we haven't information" )
-#     else:
-#         read_json('json_files/shl_matches_data.json', chat)
+def _shl_regular_season(parser_name, chat):
+    print(parser_name)
+    bot.send_message(chat, "sorry, we haven't information" )
 
 def _nhl_playoffs(parser_name, chat):
     print(parser_name)
-
+    bot.send_message(chat, "sorry, we haven't information")
 
 def _nhl_regular_season(parser_name, chat):
     print(parser_name)
     nhl_regular_season_parser.main()
     read_nhl_regular_season_json('json_files/nhl_regular_season_data.json', chat)
+
+
+def _vhl_playoffs(parser_name, chat):
+    print(parser_name)
+    bot.send_message(chat, "sorry, we haven't information")
+
+def _vhl_regular_season(parser_name, chat):
+    print(parser_name)
+    vhl_regular_season_parser.main()
+    read_vhl_regular_season_json('json_files/vhl_regular_season_data.json', chat)
+

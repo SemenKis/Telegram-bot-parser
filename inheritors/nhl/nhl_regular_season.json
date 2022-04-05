@@ -42,11 +42,11 @@
                     "divisionRoadRank": "4",
                     "divisionHomeRank": "1",
                     "conferenceRank": "2",
-                    "conferenceL10Rank": "9",
+                    "conferenceL10Rank": "8",
                     "conferenceRoadRank": "7",
                     "conferenceHomeRank": "2",
                     "leagueRank": "3",
-                    "leagueL10Rank": "18",
+                    "leagueL10Rank": "19",
                     "leagueRoadRank": "9",
                     "leagueHomeRank": "3",
                     "wildCardRank": "0",
@@ -61,7 +61,7 @@
                     "ppDivisionRank": "1",
                     "ppConferenceRank": "2",
                     "ppLeagueRank": "3",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -83,13 +83,13 @@
                     "divisionL10Rank": "2",
                     "divisionRoadRank": "3",
                     "divisionHomeRank": "2",
-                    "conferenceRank": "3",
-                    "conferenceL10Rank": "6",
-                    "conferenceRoadRank": "5",
+                    "conferenceRank": "4",
+                    "conferenceL10Rank": "5",
+                    "conferenceRoadRank": "6",
                     "conferenceHomeRank": "4",
-                    "leagueRank": "4",
-                    "leagueL10Rank": "11",
-                    "leagueRoadRank": "6",
+                    "leagueRank": "5",
+                    "leagueL10Rank": "10",
+                    "leagueRoadRank": "7",
                     "leagueHomeRank": "7",
                     "wildCardRank": "0",
                     "row": 40,
@@ -101,9 +101,9 @@
                     },
                     "pointsPercentage": 0.6714285714285714,
                     "ppDivisionRank": "2",
-                    "ppConferenceRank": "5",
-                    "ppLeagueRank": "6",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppConferenceRank": "6",
+                    "ppLeagueRank": "7",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -125,12 +125,12 @@
                     "divisionL10Rank": "5",
                     "divisionRoadRank": "1",
                     "divisionHomeRank": "3",
-                    "conferenceRank": "6",
+                    "conferenceRank": "7",
                     "conferenceL10Rank": "10",
                     "conferenceRoadRank": "1",
                     "conferenceHomeRank": "7",
-                    "leagueRank": "7",
-                    "leagueL10Rank": "20",
+                    "leagueRank": "8",
+                    "leagueL10Rank": "21",
                     "leagueRoadRank": "1",
                     "leagueHomeRank": "13",
                     "wildCardRank": "0",
@@ -144,8 +144,8 @@
                     "pointsPercentage": 0.6571428571428571,
                     "ppDivisionRank": "3",
                     "ppConferenceRank": "7",
-                    "ppLeagueRank": "9",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppLeagueRank": "10",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -168,11 +168,11 @@
                     "divisionRoadRank": "2",
                     "divisionHomeRank": "6",
                     "conferenceRank": "8",
-                    "conferenceL10Rank": "8",
+                    "conferenceL10Rank": "7",
                     "conferenceRoadRank": "2",
                     "conferenceHomeRank": "11",
                     "leagueRank": "14",
-                    "leagueL10Rank": "16",
+                    "leagueL10Rank": "17",
                     "leagueRoadRank": "2",
                     "leagueHomeRank": "21",
                     "wildCardRank": "2",
@@ -187,7 +187,7 @@
                     "ppDivisionRank": "4",
                     "ppConferenceRank": "8",
                     "ppLeagueRank": "12",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -229,7 +229,7 @@
                     "ppDivisionRank": "5",
                     "ppConferenceRank": "9",
                     "ppLeagueRank": "19",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -240,13 +240,13 @@
                     "leagueRecord": {
                         "wins": 32,
                         "losses": 32,
-                        "ot": 5,
+                        "ot": 6,
                         "type": "league"
                     },
                     "regulationWins": 22,
-                    "goalsAgainst": 260,
-                    "goalsScored": 223,
-                    "points": 69,
+                    "goalsAgainst": 263,
+                    "goalsScored": 225,
+                    "points": 70,
                     "divisionRank": "6",
                     "divisionL10Rank": "7",
                     "divisionRoadRank": "6",
@@ -254,24 +254,24 @@
                     "conferenceRank": "10",
                     "conferenceL10Rank": "14",
                     "conferenceRoadRank": "10",
-                    "conferenceHomeRank": "10",
+                    "conferenceHomeRank": "9",
                     "leagueRank": "21",
-                    "leagueL10Rank": "26",
+                    "leagueL10Rank": "27",
                     "leagueRoadRank": "24",
-                    "leagueHomeRank": "20",
+                    "leagueHomeRank": "18",
                     "wildCardRank": "4",
                     "row": 28,
-                    "gamesPlayed": 69,
+                    "gamesPlayed": 70,
                     "streak": {
-                        "streakType": "losses",
-                        "streakNumber": 3,
-                        "streakCode": "L3"
+                        "streakType": "ot",
+                        "streakNumber": 1,
+                        "streakCode": "OT1"
                     },
                     "pointsPercentage": 0.5,
                     "ppDivisionRank": "6",
                     "ppConferenceRank": "10",
                     "ppLeagueRank": "21",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -313,7 +313,7 @@
                     "ppDivisionRank": "7",
                     "ppConferenceRank": "14",
                     "ppLeagueRank": "28",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -355,7 +355,7 @@
                     "ppDivisionRank": "8",
                     "ppConferenceRank": "15",
                     "ppLeagueRank": "29",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 }
             ]
         },
@@ -396,16 +396,16 @@
                     "goalsScored": 287,
                     "points": 102,
                     "divisionRank": "1",
-                    "divisionL10Rank": "2",
-                    "divisionRoadRank": "1",
+                    "divisionL10Rank": "3",
+                    "divisionRoadRank": "2",
                     "divisionHomeRank": "1",
                     "conferenceRank": "1",
-                    "conferenceL10Rank": "2",
-                    "conferenceRoadRank": "3",
+                    "conferenceL10Rank": "3",
+                    "conferenceRoadRank": "4",
                     "conferenceHomeRank": "1",
                     "leagueRank": "2",
-                    "leagueL10Rank": "4",
-                    "leagueRoadRank": "4",
+                    "leagueL10Rank": "5",
+                    "leagueRoadRank": "5",
                     "leagueHomeRank": "2",
                     "wildCardRank": "0",
                     "row": 45,
@@ -420,7 +420,7 @@
                     "ppDivisionRank": "1",
                     "ppConferenceRank": "1",
                     "ppLeagueRank": "2",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -429,40 +429,82 @@
                         "link": "/api/v1/teams/10"
                     },
                     "leagueRecord": {
-                        "wins": 44,
+                        "wins": 45,
                         "losses": 19,
                         "ot": 5,
                         "type": "league"
                     },
-                    "regulationWins": 38,
-                    "goalsAgainst": 207,
-                    "goalsScored": 258,
-                    "points": 93,
+                    "regulationWins": 39,
+                    "goalsAgainst": 209,
+                    "goalsScored": 264,
+                    "points": 95,
                     "divisionRank": "2",
-                    "divisionL10Rank": "3",
+                    "divisionL10Rank": "1",
                     "divisionRoadRank": "4",
                     "divisionHomeRank": "2",
-                    "conferenceRank": "4",
-                    "conferenceL10Rank": "3",
+                    "conferenceRank": "3",
+                    "conferenceL10Rank": "1",
                     "conferenceRoadRank": "8",
                     "conferenceHomeRank": "3",
-                    "leagueRank": "5",
-                    "leagueL10Rank": "6",
+                    "leagueRank": "4",
+                    "leagueL10Rank": "3",
                     "leagueRoadRank": "10",
                     "leagueHomeRank": "4",
                     "wildCardRank": "0",
-                    "row": 42,
-                    "gamesPlayed": 68,
+                    "row": 43,
+                    "gamesPlayed": 69,
                     "streak": {
                         "streakType": "wins",
-                        "streakNumber": 4,
-                        "streakCode": "W4"
+                        "streakNumber": 5,
+                        "streakCode": "W5"
                     },
-                    "pointsPercentage": 0.6838235294117647,
+                    "pointsPercentage": 0.6884057971014492,
                     "ppDivisionRank": "2",
                     "ppConferenceRank": "3",
                     "ppLeagueRank": "4",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
+                },
+                {
+                    "team": {
+                        "id": 6,
+                        "name": "Boston Bruins",
+                        "link": "/api/v1/teams/6"
+                    },
+                    "leagueRecord": {
+                        "wins": 44,
+                        "losses": 20,
+                        "ot": 5,
+                        "type": "league"
+                    },
+                    "regulationWins": 35,
+                    "goalsAgainst": 185,
+                    "goalsScored": 220,
+                    "points": 93,
+                    "divisionRank": "3",
+                    "divisionL10Rank": "2",
+                    "divisionRoadRank": "1",
+                    "divisionHomeRank": "4",
+                    "conferenceRank": "5",
+                    "conferenceL10Rank": "2",
+                    "conferenceRoadRank": "3",
+                    "conferenceHomeRank": "6",
+                    "leagueRank": "6",
+                    "leagueL10Rank": "4",
+                    "leagueRoadRank": "3",
+                    "leagueHomeRank": "10",
+                    "wildCardRank": "0",
+                    "row": 42,
+                    "gamesPlayed": 69,
+                    "streak": {
+                        "streakType": "wins",
+                        "streakNumber": 3,
+                        "streakCode": "W3"
+                    },
+                    "pointsPercentage": 0.6739130434782609,
+                    "ppDivisionRank": "3",
+                    "ppConferenceRank": "4",
+                    "ppLeagueRank": "5",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -472,81 +514,39 @@
                     },
                     "leagueRecord": {
                         "wins": 43,
-                        "losses": 18,
+                        "losses": 19,
                         "ot": 7,
                         "type": "league"
                     },
                     "regulationWins": 32,
-                    "goalsAgainst": 192,
-                    "goalsScored": 228,
+                    "goalsAgainst": 198,
+                    "goalsScored": 230,
                     "points": 93,
-                    "divisionRank": "3",
-                    "divisionL10Rank": "4",
-                    "divisionRoadRank": "2",
-                    "divisionHomeRank": "3",
-                    "conferenceRank": "5",
-                    "conferenceL10Rank": "5",
-                    "conferenceRoadRank": "4",
-                    "conferenceHomeRank": "5",
-                    "leagueRank": "6",
-                    "leagueL10Rank": "10",
-                    "leagueRoadRank": "5",
-                    "leagueHomeRank": "8",
-                    "wildCardRank": "0",
-                    "row": 41,
-                    "gamesPlayed": 68,
-                    "streak": {
-                        "streakType": "ot",
-                        "streakNumber": 1,
-                        "streakCode": "OT1"
-                    },
-                    "pointsPercentage": 0.6838235294117647,
-                    "ppDivisionRank": "3",
-                    "ppConferenceRank": "4",
-                    "ppLeagueRank": "5",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
-                },
-                {
-                    "team": {
-                        "id": 6,
-                        "name": "Boston Bruins",
-                        "link": "/api/v1/teams/6"
-                    },
-                    "leagueRecord": {
-                        "wins": 43,
-                        "losses": 20,
-                        "ot": 5,
-                        "type": "league"
-                    },
-                    "regulationWins": 35,
-                    "goalsAgainst": 183,
-                    "goalsScored": 217,
-                    "points": 91,
                     "divisionRank": "4",
-                    "divisionL10Rank": "1",
+                    "divisionL10Rank": "5",
                     "divisionRoadRank": "3",
-                    "divisionHomeRank": "4",
-                    "conferenceRank": "7",
-                    "conferenceL10Rank": "1",
-                    "conferenceRoadRank": "6",
-                    "conferenceHomeRank": "6",
-                    "leagueRank": "8",
-                    "leagueL10Rank": "3",
-                    "leagueRoadRank": "7",
-                    "leagueHomeRank": "10",
+                    "divisionHomeRank": "3",
+                    "conferenceRank": "6",
+                    "conferenceL10Rank": "9",
+                    "conferenceRoadRank": "5",
+                    "conferenceHomeRank": "5",
+                    "leagueRank": "7",
+                    "leagueL10Rank": "20",
+                    "leagueRoadRank": "6",
+                    "leagueHomeRank": "9",
                     "wildCardRank": "1",
                     "row": 41,
-                    "gamesPlayed": 68,
+                    "gamesPlayed": 69,
                     "streak": {
-                        "streakType": "wins",
-                        "streakNumber": 2,
-                        "streakCode": "W2"
+                        "streakType": "losses",
+                        "streakNumber": 1,
+                        "streakCode": "L1"
                     },
-                    "pointsPercentage": 0.6691176470588235,
+                    "pointsPercentage": 0.6739130434782609,
                     "ppDivisionRank": "4",
-                    "ppConferenceRank": "6",
-                    "ppLeagueRank": "7",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppConferenceRank": "5",
+                    "ppLeagueRank": "6",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -571,9 +571,9 @@
                     "conferenceRank": "11",
                     "conferenceL10Rank": "15",
                     "conferenceRoadRank": "15",
-                    "conferenceHomeRank": "9",
+                    "conferenceHomeRank": "10",
                     "leagueRank": "24",
-                    "leagueL10Rank": "30",
+                    "leagueL10Rank": "29",
                     "leagueRoadRank": "31",
                     "leagueHomeRank": "19",
                     "wildCardRank": "5",
@@ -588,7 +588,7 @@
                     "ppDivisionRank": "5",
                     "ppConferenceRank": "11",
                     "ppLeagueRank": "24",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -607,15 +607,15 @@
                     "goalsScored": 193,
                     "points": 61,
                     "divisionRank": "6",
-                    "divisionL10Rank": "5",
+                    "divisionL10Rank": "4",
                     "divisionRoadRank": "5",
                     "divisionHomeRank": "6",
                     "conferenceRank": "12",
-                    "conferenceL10Rank": "7",
+                    "conferenceL10Rank": "6",
                     "conferenceRoadRank": "11",
                     "conferenceHomeRank": "14",
                     "leagueRank": "25",
-                    "leagueL10Rank": "12",
+                    "leagueL10Rank": "11",
                     "leagueRoadRank": "25",
                     "leagueHomeRank": "27",
                     "wildCardRank": "6",
@@ -630,7 +630,7 @@
                     "ppDivisionRank": "6",
                     "ppConferenceRank": "12",
                     "ppLeagueRank": "25",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -672,7 +672,7 @@
                     "ppDivisionRank": "7",
                     "ppConferenceRank": "13",
                     "ppLeagueRank": "27",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -698,7 +698,7 @@
                     "conferenceL10Rank": "12",
                     "conferenceRoadRank": "13",
                     "conferenceHomeRank": "16",
-                    "leagueRank": "32",
+                    "leagueRank": "31",
                     "leagueL10Rank": "24",
                     "leagueRoadRank": "28",
                     "leagueHomeRank": "31",
@@ -713,8 +713,8 @@
                     "pointsPercentage": 0.35507246376811596,
                     "ppDivisionRank": "8",
                     "ppConferenceRank": "16",
-                    "ppLeagueRank": "32",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppLeagueRank": "31",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 }
             ]
         },
@@ -778,7 +778,7 @@
                     "ppDivisionRank": "1",
                     "ppConferenceRank": "1",
                     "ppLeagueRank": "1",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -802,11 +802,11 @@
                     "divisionHomeRank": "2",
                     "conferenceRank": "2",
                     "conferenceL10Rank": "1",
-                    "conferenceRoadRank": "3",
+                    "conferenceRoadRank": "4",
                     "conferenceHomeRank": "2",
                     "leagueRank": "9",
                     "leagueL10Rank": "1",
-                    "leagueRoadRank": "11",
+                    "leagueRoadRank": "12",
                     "leagueHomeRank": "5",
                     "wildCardRank": "0",
                     "row": 38,
@@ -820,7 +820,7 @@
                     "ppDivisionRank": "2",
                     "ppConferenceRank": "2",
                     "ppLeagueRank": "8",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -829,40 +829,40 @@
                         "link": "/api/v1/teams/19"
                     },
                     "leagueRecord": {
-                        "wins": 38,
+                        "wins": 39,
                         "losses": 20,
                         "ot": 10,
                         "type": "league"
                     },
-                    "regulationWins": 35,
-                    "goalsAgainst": 201,
-                    "goalsScored": 245,
-                    "points": 86,
+                    "regulationWins": 36,
+                    "goalsAgainst": 202,
+                    "goalsScored": 250,
+                    "points": 88,
                     "divisionRank": "3",
-                    "divisionL10Rank": "6",
+                    "divisionL10Rank": "5",
                     "divisionRoadRank": "3",
                     "divisionHomeRank": "3",
                     "conferenceRank": "4",
-                    "conferenceL10Rank": "10",
+                    "conferenceL10Rank": "8",
                     "conferenceRoadRank": "5",
                     "conferenceHomeRank": "4",
                     "leagueRank": "11",
-                    "leagueL10Rank": "19",
+                    "leagueL10Rank": "14",
                     "leagueRoadRank": "13",
-                    "leagueHomeRank": "9",
+                    "leagueHomeRank": "8",
                     "wildCardRank": "0",
-                    "row": 36,
-                    "gamesPlayed": 68,
+                    "row": 37,
+                    "gamesPlayed": 69,
                     "streak": {
                         "streakType": "wins",
-                        "streakNumber": 1,
-                        "streakCode": "W1"
+                        "streakNumber": 2,
+                        "streakCode": "W2"
                     },
-                    "pointsPercentage": 0.6323529411764706,
+                    "pointsPercentage": 0.6376811594202898,
                     "ppDivisionRank": "3",
                     "ppConferenceRank": "4",
                     "ppLeagueRank": "11",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -889,7 +889,7 @@
                     "conferenceRoadRank": "6",
                     "conferenceHomeRank": "8",
                     "leagueRank": "15",
-                    "leagueL10Rank": "13",
+                    "leagueL10Rank": "12",
                     "leagueRoadRank": "14",
                     "leagueHomeRank": "15",
                     "wildCardRank": "1",
@@ -902,9 +902,9 @@
                     },
                     "pointsPercentage": 0.6029411764705882,
                     "ppDivisionRank": "4",
-                    "ppConferenceRank": "7",
-                    "ppLeagueRank": "15",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppConferenceRank": "6",
+                    "ppLeagueRank": "14",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -946,7 +946,7 @@
                     "ppDivisionRank": "5",
                     "ppConferenceRank": "8",
                     "ppLeagueRank": "16",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -965,15 +965,15 @@
                     "goalsScored": 217,
                     "points": 76,
                     "divisionRank": "6",
-                    "divisionL10Rank": "5",
+                    "divisionL10Rank": "6",
                     "divisionRoadRank": "6",
                     "divisionHomeRank": "6",
                     "conferenceRank": "10",
-                    "conferenceL10Rank": "8",
+                    "conferenceL10Rank": "10",
                     "conferenceRoadRank": "11",
                     "conferenceHomeRank": "9",
                     "leagueRank": "18",
-                    "leagueL10Rank": "15",
+                    "leagueL10Rank": "16",
                     "leagueRoadRank": "19",
                     "leagueHomeRank": "17",
                     "wildCardRank": "4",
@@ -988,7 +988,7 @@
                     "ppDivisionRank": "6",
                     "ppConferenceRank": "10",
                     "ppLeagueRank": "18",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1007,15 +1007,15 @@
                     "goalsScored": 188,
                     "points": 59,
                     "divisionRank": "7",
-                    "divisionL10Rank": "8",
+                    "divisionL10Rank": "7",
                     "divisionRoadRank": "7",
                     "divisionHomeRank": "7",
                     "conferenceRank": "14",
-                    "conferenceL10Rank": "15",
+                    "conferenceL10Rank": "14",
                     "conferenceRoadRank": "13",
                     "conferenceHomeRank": "14",
                     "leagueRank": "26",
-                    "leagueL10Rank": "29",
+                    "leagueL10Rank": "28",
                     "leagueRoadRank": "22",
                     "leagueHomeRank": "29",
                     "wildCardRank": "8",
@@ -1030,7 +1030,7 @@
                     "ppDivisionRank": "7",
                     "ppConferenceRank": "14",
                     "ppLeagueRank": "26",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1040,39 +1040,39 @@
                     },
                     "leagueRecord": {
                         "wins": 22,
-                        "losses": 42,
+                        "losses": 43,
                         "ot": 5,
                         "type": "league"
                     },
                     "regulationWins": 16,
-                    "goalsAgainst": 249,
-                    "goalsScored": 176,
+                    "goalsAgainst": 254,
+                    "goalsScored": 177,
                     "points": 49,
                     "divisionRank": "8",
-                    "divisionL10Rank": "7",
+                    "divisionL10Rank": "8",
                     "divisionRoadRank": "8",
                     "divisionHomeRank": "8",
                     "conferenceRank": "16",
-                    "conferenceL10Rank": "14",
+                    "conferenceL10Rank": "15",
                     "conferenceRoadRank": "15",
                     "conferenceHomeRank": "16",
-                    "leagueRank": "31",
-                    "leagueL10Rank": "28",
+                    "leagueRank": "32",
+                    "leagueL10Rank": "30",
                     "leagueRoadRank": "26",
                     "leagueHomeRank": "32",
                     "wildCardRank": "10",
                     "row": 21,
-                    "gamesPlayed": 69,
+                    "gamesPlayed": 70,
                     "streak": {
-                        "streakType": "wins",
+                        "streakType": "losses",
                         "streakNumber": 1,
-                        "streakCode": "W1"
+                        "streakCode": "L1"
                     },
-                    "pointsPercentage": 0.35507246376811596,
+                    "pointsPercentage": 0.35,
                     "ppDivisionRank": "8",
                     "ppConferenceRank": "16",
-                    "ppLeagueRank": "31",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppLeagueRank": "32",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 }
             ]
         },
@@ -1103,40 +1103,40 @@
                         "link": "/api/v1/teams/20"
                     },
                     "leagueRecord": {
-                        "wins": 40,
+                        "wins": 41,
                         "losses": 19,
                         "ot": 9,
                         "type": "league"
                     },
-                    "regulationWins": 35,
-                    "goalsAgainst": 171,
-                    "goalsScored": 238,
-                    "points": 89,
+                    "regulationWins": 36,
+                    "goalsAgainst": 173,
+                    "goalsScored": 241,
+                    "points": 91,
                     "divisionRank": "1",
-                    "divisionL10Rank": "5",
+                    "divisionL10Rank": "3",
                     "divisionRoadRank": "2",
                     "divisionHomeRank": "1",
                     "conferenceRank": "3",
-                    "conferenceL10Rank": "11",
-                    "conferenceRoadRank": "4",
+                    "conferenceL10Rank": "7",
+                    "conferenceRoadRank": "3",
                     "conferenceHomeRank": "3",
                     "leagueRank": "10",
-                    "leagueL10Rank": "21",
-                    "leagueRoadRank": "12",
+                    "leagueL10Rank": "13",
+                    "leagueRoadRank": "11",
                     "leagueHomeRank": "6",
                     "wildCardRank": "0",
-                    "row": 38,
-                    "gamesPlayed": 68,
+                    "row": 39,
+                    "gamesPlayed": 69,
                     "streak": {
-                        "streakType": "losses",
+                        "streakType": "wins",
                         "streakNumber": 1,
-                        "streakCode": "L1"
+                        "streakCode": "W1"
                     },
-                    "pointsPercentage": 0.6544117647058824,
+                    "pointsPercentage": 0.6594202898550725,
                     "ppDivisionRank": "1",
                     "ppConferenceRank": "3",
-                    "ppLeagueRank": "10",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppLeagueRank": "9",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1146,39 +1146,39 @@
                     },
                     "leagueRecord": {
                         "wins": 38,
-                        "losses": 23,
+                        "losses": 24,
                         "ot": 10,
                         "type": "league"
                     },
                     "regulationWins": 29,
-                    "goalsAgainst": 202,
-                    "goalsScored": 205,
+                    "goalsAgainst": 205,
+                    "goalsScored": 207,
                     "points": 86,
                     "divisionRank": "2",
-                    "divisionL10Rank": "3",
+                    "divisionL10Rank": "4",
                     "divisionRoadRank": "1",
                     "divisionHomeRank": "4",
                     "conferenceRank": "5",
-                    "conferenceL10Rank": "7",
+                    "conferenceL10Rank": "9",
                     "conferenceRoadRank": "1",
                     "conferenceHomeRank": "10",
                     "leagueRank": "12",
-                    "leagueL10Rank": "14",
-                    "leagueRoadRank": "3",
-                    "leagueHomeRank": "18",
+                    "leagueL10Rank": "15",
+                    "leagueRoadRank": "4",
+                    "leagueHomeRank": "20",
                     "wildCardRank": "0",
                     "row": 34,
-                    "gamesPlayed": 71,
+                    "gamesPlayed": 72,
                     "streak": {
-                        "streakType": "wins",
-                        "streakNumber": 2,
-                        "streakCode": "W2"
+                        "streakType": "losses",
+                        "streakNumber": 1,
+                        "streakCode": "L1"
                     },
-                    "pointsPercentage": 0.6056338028169014,
+                    "pointsPercentage": 0.5972222222222222,
                     "ppDivisionRank": "3",
-                    "ppConferenceRank": "6",
-                    "ppLeagueRank": "14",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "ppConferenceRank": "7",
+                    "ppLeagueRank": "15",
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1205,7 +1205,7 @@
                     "conferenceRoadRank": "8",
                     "conferenceHomeRank": "5",
                     "leagueRank": "13",
-                    "leagueL10Rank": "5",
+                    "leagueL10Rank": "6",
                     "leagueRoadRank": "16",
                     "leagueHomeRank": "11",
                     "wildCardRank": "0",
@@ -1220,7 +1220,7 @@
                     "ppDivisionRank": "2",
                     "ppConferenceRank": "5",
                     "ppLeagueRank": "13",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1262,7 +1262,7 @@
                     "ppDivisionRank": "4",
                     "ppConferenceRank": "9",
                     "ppLeagueRank": "17",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1304,7 +1304,7 @@
                     "ppDivisionRank": "5",
                     "ppConferenceRank": "11",
                     "ppLeagueRank": "20",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1346,7 +1346,7 @@
                     "ppDivisionRank": "7",
                     "ppConferenceRank": "13",
                     "ppLeagueRank": "23",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1373,7 +1373,7 @@
                     "conferenceRoadRank": "14",
                     "conferenceHomeRank": "12",
                     "leagueRank": "23",
-                    "leagueL10Rank": "27",
+                    "leagueL10Rank": "26",
                     "leagueRoadRank": "23",
                     "leagueHomeRank": "23",
                     "wildCardRank": "7",
@@ -1388,7 +1388,7 @@
                     "ppDivisionRank": "6",
                     "ppConferenceRank": "12",
                     "ppLeagueRank": "22",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 },
                 {
                     "team": {
@@ -1407,15 +1407,15 @@
                     "goalsScored": 182,
                     "points": 50,
                     "divisionRank": "8",
-                    "divisionL10Rank": "4",
+                    "divisionL10Rank": "5",
                     "divisionRoadRank": "8",
                     "divisionHomeRank": "8",
                     "conferenceRank": "15",
-                    "conferenceL10Rank": "9",
+                    "conferenceL10Rank": "11",
                     "conferenceRoadRank": "16",
                     "conferenceHomeRank": "15",
                     "leagueRank": "30",
-                    "leagueL10Rank": "17",
+                    "leagueL10Rank": "18",
                     "leagueRoadRank": "29",
                     "leagueHomeRank": "30",
                     "wildCardRank": "9",
@@ -1430,7 +1430,7 @@
                     "ppDivisionRank": "8",
                     "ppConferenceRank": "15",
                     "ppLeagueRank": "30",
-                    "lastUpdated": "2022-04-04T00:12:40Z"
+                    "lastUpdated": "2022-04-05T02:12:01Z"
                 }
             ]
         }

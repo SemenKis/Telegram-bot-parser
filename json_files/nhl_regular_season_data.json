@@ -61,13 +61,13 @@
             {
                 "team-position": "6",
                 "team-name": "Columbus Blue Jackets",
-                "GP": 69,
+                "GP": 70,
                 "W": 32,
                 "ROW": 28,
-                "OT": 5,
+                "OT": 6,
                 "L": 32,
-                "GF": 223,
-                "PTS": 69
+                "GF": 225,
+                "PTS": 70
             },
             {
                 "team-position": "7",
@@ -111,35 +111,35 @@
             {
                 "team-position": "2",
                 "team-name": "Toronto Maple Leafs",
-                "GP": 68,
-                "W": 44,
-                "ROW": 42,
+                "GP": 69,
+                "W": 45,
+                "ROW": 43,
                 "OT": 5,
                 "L": 19,
-                "GF": 258,
-                "PTS": 93
+                "GF": 264,
+                "PTS": 95
             },
             {
                 "team-position": "3",
-                "team-name": "Tampa Bay Lightning",
-                "GP": 68,
-                "W": 43,
-                "ROW": 41,
-                "OT": 7,
-                "L": 18,
-                "GF": 228,
+                "team-name": "Boston Bruins",
+                "GP": 69,
+                "W": 44,
+                "ROW": 42,
+                "OT": 5,
+                "L": 20,
+                "GF": 220,
                 "PTS": 93
             },
             {
                 "team-position": "4",
-                "team-name": "Boston Bruins",
-                "GP": 68,
+                "team-name": "Tampa Bay Lightning",
+                "GP": 69,
                 "W": 43,
                 "ROW": 41,
-                "OT": 5,
-                "L": 20,
-                "GF": 217,
-                "PTS": 91
+                "OT": 7,
+                "L": 19,
+                "GF": 230,
+                "PTS": 93
             },
             {
                 "team-position": "5",
@@ -216,13 +216,13 @@
             {
                 "team-position": "3",
                 "team-name": "St. Louis Blues",
-                "GP": 68,
-                "W": 38,
-                "ROW": 36,
+                "GP": 69,
+                "W": 39,
+                "ROW": 37,
                 "OT": 10,
                 "L": 20,
-                "GF": 245,
-                "PTS": 86
+                "GF": 250,
+                "PTS": 88
             },
             {
                 "team-position": "4",
@@ -271,12 +271,12 @@
             {
                 "team-position": "8",
                 "team-name": "Arizona Coyotes",
-                "GP": 69,
+                "GP": 70,
                 "W": 22,
                 "ROW": 21,
                 "OT": 5,
-                "L": 42,
-                "GF": 176,
+                "L": 43,
+                "GF": 177,
                 "PTS": 49
             }
         ]
@@ -288,23 +288,23 @@
             {
                 "team-position": "1",
                 "team-name": "Calgary Flames",
-                "GP": 68,
-                "W": 40,
-                "ROW": 38,
+                "GP": 69,
+                "W": 41,
+                "ROW": 39,
                 "OT": 9,
                 "L": 19,
-                "GF": 238,
-                "PTS": 89
+                "GF": 241,
+                "PTS": 91
             },
             {
                 "team-position": "2",
                 "team-name": "Los Angeles Kings",
-                "GP": 71,
+                "GP": 72,
                 "W": 38,
                 "ROW": 34,
                 "OT": 10,
-                "L": 23,
-                "GF": 205,
+                "L": 24,
+                "GF": 207,
                 "PTS": 86
             },
             {
