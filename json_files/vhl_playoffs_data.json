@@ -1,16 +1,6 @@
 [
     {
-        "records": [
-            {
-                "team-name": "1. Югра",
-                "first-game": "1:2 ОТ",
-                "second-game": "0:3",
-                "third-game": "",
-                "fourth-game": "",
-                "fifth-game": "06 апреля",
-                "sixth-game": "",
-                "seventh-game": ""
-            },
+        "group_1": [
             {
                 "team-name": "4. Динамо СПб",
                 "first-game": "",
@@ -18,17 +8,7 @@
                 "third-game": "3:2 ОТ",
                 "fourth-game": "1:2 ОТ",
                 "fifth-game": "",
-                "sixth-game": "",
-                "seventh-game": ""
-            },
-            {
-                "team-name": "2. СКА-Нева",
-                "first-game": "1:2",
-                "second-game": "6:2",
-                "third-game": "",
-                "fourth-game": "",
-                "fifth-game": "07 апреля",
-                "sixth-game": "",
+                "sixth-game": "1:3",
                 "seventh-game": ""
             },
             {
@@ -38,10 +18,31 @@
                 "third-game": "0:1",
                 "fourth-game": "1:2",
                 "fifth-game": "",
-                "sixth-game": "",
+                "sixth-game": "2:3",
                 "seventh-game": ""
             }
         ],
-        "score": "1:3"
+        "group_2": [
+            {
+                "team-name": "1. Югра",
+                "first-game": "1:2 ОТ",
+                "second-game": "0:3",
+                "third-game": "",
+                "fourth-game": "",
+                "fifth-game": "2:1",
+                "sixth-game": "",
+                "seventh-game": ""
+            },
+            {
+                "team-name": "2. СКА-Нева",
+                "first-game": "1:2",
+                "second-game": "6:2",
+                "third-game": "",
+                "fourth-game": "",
+                "fifth-game": "5:2",
+                "sixth-game": "",
+                "seventh-game": ""
+            }
+        ]
     }
 ]

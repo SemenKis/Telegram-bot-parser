@@ -1,6 +1,6 @@
 from main_parse_class import Parser
 from urllib.request import Request, urlopen
-import requests
+# import requests
 from bs4 import BeautifulSoup
 
 class VhlMatchesParser(Parser):
@@ -11,7 +11,6 @@ class VhlMatchesParser(Parser):
     def _get_request(self):
         req = Request(self.args[0], headers=self.args[1])
         self.webpage = urlopen(req).read()
-        # print(self.webpage)
 
 
     def _parse_data(self):
@@ -22,16 +21,15 @@ class VhlMatchesParser(Parser):
 
         teams_info = []
         teams_data = {}
-        teams_data['records'] = []
-        #print(teams)
+        teams_data['group_1'] = []
+        teams_data['group_2'] = []
 
+        count = 0
         for team_info in teams:
-            #print(team_info)
             team = team_info.find_all('td', class_='table__cell')
+            # print(team)
             if len(team) == 0:
                 continue
-            #print(team)
-            #print(len(team))
             team_name = team[0].text.strip()
             game_1 = team[1].text.strip()
             game_2 = team[2].text.strip()
@@ -41,29 +39,38 @@ class VhlMatchesParser(Parser):
             game_6 = team[6].text.strip()
             game_7 = team[7].text.strip()
 
-            if len(team) == 9:
-                score = team[8].text.strip()
-                teams_data['score'] = score
-
-                print(f"{team_name} \n"
-                      f"{game_1, game_2, game_3, game_4, game_5, game_6, game_7, score}")
+            count += 1
+            if count % 2 == 0:
+                teams_data[f'group_1'].append(
+                    {
+                    "team-name": team_name,
+                    "first-game": game_1,
+                    "second-game": game_2,
+                    "third-game": game_3,
+                    "fourth-game": game_4,
+                    "fifth-game": game_5,
+                    "sixth-game": game_6,
+                    "seventh-game": game_7
+                    }
+                )
             else:
-                print(f"{team_name} \n"
-                      f"{game_1, game_2, game_3, game_4, game_5, game_6, game_7}")
+                teams_data[f'group_2'].append(
+                    {
+                        "team-name": team_name,
+                        "first-game": game_1,
+                        "second-game": game_2,
+                        "third-game": game_3,
+                        "fourth-game": game_4,
+                        "fifth-game": game_5,
+                        "sixth-game": game_6,
+                        "seventh-game": game_7
+                    }
+                )
 
-            teams_data['records'].append({
-                'team-name': team_name,
-                'first-game': game_1,
-                'second-game': game_2,
-                'third-game': game_3,
-                'fourth-game': game_4,
-                'fifth-game': game_5,
-                'sixth-game': game_6,
-                'seventh-game': game_7,
-            })
-        print(teams_data)
         teams_info.append(teams_data)
-        super()._convert_to_json('../../json_files/vhl_playoffs_data.json', teams_info)
+
+        # super()._convert_to_json('../../json_files/vhl_playoffs_data.json', teams_info)
+        super()._convert_to_json('json_files/vhl_playoffs_data.json', teams_info)
 
 
     def call(self):
@@ -87,5 +94,4 @@ def main():
     vhl = VhlMatchesParser('https://www.vhlru.ru/standings/playoff/1104/15020/', header)
     vhl.call()
 
-main()
 

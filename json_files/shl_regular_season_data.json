@@ -1,0 +1,118 @@
+[
+    {
+        "records": [
+            {
+                "team-position": 1,
+                "team-name": "RBK",
+                "GP": 52,
+                "ROW": 4,
+                "OT": 7,
+                "PTS": 100
+            },
+            {
+                "team-position": 2,
+                "team-name": "LHF",
+                "GP": 52,
+                "ROW": 4,
+                "OT": 5,
+                "PTS": 97
+            },
+            {
+                "team-position": 3,
+                "team-name": "SAIK",
+                "GP": 52,
+                "ROW": 3,
+                "OT": 1,
+                "PTS": 94
+            },
+            {
+                "team-position": 4,
+                "team-name": "FHC",
+                "GP": 52,
+                "ROW": 8,
+                "OT": 2,
+                "PTS": 87
+            },
+            {
+                "team-position": 5,
+                "team-name": "VLH",
+                "GP": 52,
+                "ROW": 3,
+                "OT": 5,
+                "PTS": 85
+            },
+            {
+                "team-position": 6,
+                "team-name": "FBK",
+                "GP": 52,
+                "ROW": 3,
+                "OT": 4,
+                "PTS": 82
+            },
+            {
+                "team-position": 7,
+                "team-name": "OHK",
+                "GP": 52,
+                "ROW": 5,
+                "OT": 3,
+                "PTS": 81
+            },
+            {
+                "team-position": 8,
+                "team-name": "LIF",
+                "GP": 52,
+                "ROW": 3,
+                "OT": 3,
+                "PTS": 75
+            },
+            {
+                "team-position": 9,
+                "team-name": "IKO",
+                "GP": 52,
+                "ROW": 1,
+                "OT": 4,
+                "PTS": 72
+            },
+            {
+                "team-position": 10,
+                "team-name": "BIF",
+                "GP": 52,
+                "ROW": 5,
+                "OT": 3,
+                "PTS": 69
+            },
+            {
+                "team-position": 11,
+                "team-name": "LHC",
+                "GP": 52,
+                "ROW": 4,
+                "OT": 4,
+                "PTS": 69
+            },
+            {
+                "team-position": 12,
+                "team-name": "MIF",
+                "GP": 52,
+                "ROW": 2,
+                "OT": 4,
+                "PTS": 67
+            },
+            {
+                "team-position": 13,
+                "team-name": "DIF",
+                "GP": 52,
+                "ROW": 2,
+                "OT": 5,
+                "PTS": 58
+            },
+            {
+                "team-position": 14,
+                "team-name": "TIK",
+                "GP": 52,
+                "ROW": 4,
+                "OT": 1,
+                "PTS": 56
+            }
+        ]
+    }
+]

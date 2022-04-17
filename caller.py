@@ -2,9 +2,9 @@ import telebot
 import json
 from inheritors.mhl import mhl_parse, mhl_regular_season_parser
 from inheritors.khl import khl_parse, khl_regular_season_parser
-# from inheritors.shl import shl_parse
 from inheritors.nhl import nhl_regular_season_parser
-from inheritors.vhl import vhl_regular_season_parser
+from inheritors.vhl import vhl_regular_season_parser, vhl_parse
+from inheritors.shl import shl_regular_season_parser
 
 bot = telebot.TeleBot('5254316199:AAG0259Rkkzmb179uY6tGW3fSQ8jLy5iBhA')
 
@@ -48,15 +48,26 @@ def read_vhl_regular_season_json(path, chat):
                                        f"GF: {team['GF']} \n"
                                        f"PTS: {team['PTS']}")
 
-def read_nhl_regular_season_json(path, chat):
+def read_vhl_playoffs_json(path, chat):
     with open(path, 'r', encoding='utf-8') as file:
         data = json.load(file)
         # print(data)
         for item in data:
             # print(item)
+            for group in item:
+                # print(group)
+                # print(item[group])
+                for dict in item[group]:
+                    print(dict)
+
+
+
+def read_nhl_regular_season_json(path, chat):
+    with open(path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+        for item in data:
             bot.send_message(chat, f"<b>{item['conference']} {item['division']}</b>", parse_mode='html')
             for team in item['records']:
-                # print(team)
                 bot.send_message(chat, f"{team['team-position']} | <b>{team['team-name']}</b> \n"
                                        f"GP: {team['GP']} \n"
                                        f"W: {team['W']} \n"
@@ -65,6 +76,18 @@ def read_nhl_regular_season_json(path, chat):
                                        f"L: {team['L']} \n"
                                        f"GF: {team['GF']} \n"
                                        f"PTS: {team['PTS']}", parse_mode='html')
+
+def read_shl_regular_season_json(path, chat):
+    with open(path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+        for item in data:
+            for team in item['records']:
+                bot.send_message(chat, f"{team['team-position']} | {team['team-name']} \n"
+                                       f"GP: {team['GP']} \n"
+                                       f"ROW: {team['ROW']} \n"
+                                       f"OT: {team['OT']} \n"
+                                       f"PTS: {team['PTS']} \n")
+
 
 def call_parser(parser_name, chat):
     if parser_name == 'mhl playoffs':
@@ -77,8 +100,8 @@ def call_parser(parser_name, chat):
         return _khl_regular_season(parser_name, chat)
     if parser_name == 'shl playoffs':
         return _shl_playoffs(parser_name, chat)
-    # if parser_name == 'shl regular season':
-    #     return _shl_regular_season(parser_name, chat)
+    if parser_name == 'shl regular season':
+        return _shl_regular_season(parser_name, chat)
     if parser_name == 'nhl playoffs':
         return _nhl_playoffs(parser_name, chat)
     if parser_name == 'nhl regular season':
@@ -113,7 +136,9 @@ def _shl_playoffs(parser_name, chat):
 
 def _shl_regular_season(parser_name, chat):
     print(parser_name)
-    bot.send_message(chat, "sorry, we haven't information" )
+    # bot.send_message(chat, "sorry, we haven't information" )
+    shl_regular_season_parser.main()
+    read_shl_regular_season_json('json_files/shl_regular_season_data.json', chat)
 
 def _nhl_playoffs(parser_name, chat):
     print(parser_name)
@@ -124,10 +149,11 @@ def _nhl_regular_season(parser_name, chat):
     nhl_regular_season_parser.main()
     read_nhl_regular_season_json('json_files/nhl_regular_season_data.json', chat)
 
-
 def _vhl_playoffs(parser_name, chat):
     print(parser_name)
-    bot.send_message(chat, "sorry, we haven't information")
+    # bot.send_message(chat, "sorry, we haven't information")
+    vhl_parse.main()
+    read_vhl_playoffs_json('json_files/vhl_playoffs_data.json', chat)
 
 def _vhl_regular_season(parser_name, chat):
     print(parser_name)

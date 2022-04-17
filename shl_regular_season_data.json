@@ -1,0 +1,1028 @@
+[
+    {
+        "provider": "statnet",
+        "season": {
+            "uuid": "qZl-8qa6OaFXf",
+            "code": "2021",
+            "names": {
+                "0": {
+                    "language": "sv",
+                    "translation": "2021/2022"
+                }
+            },
+            "createdBy": "shl1_shl"
+        },
+        "series": {
+            "uuid": "qQ9-bb0bzEWUk",
+            "code": "SHL",
+            "names": {
+                "0": {
+                    "language": "sv",
+                    "translation": "SHL"
+                },
+                "1": {
+                    "language": "en",
+                    "translation": "Swedish Hockey League"
+                }
+            }
+        },
+        "gameType": {
+            "uuid": "qQ9-af37Ti40B",
+            "code": "regular",
+            "names": {
+                "0": {
+                    "language": "sv",
+                    "translation": "Seriematch"
+                },
+                "1": {
+                    "language": "en",
+                    "translation": "Regular season game"
+                }
+            }
+        },
+        "groups": [
+            {
+                "Description": "Playoff",
+                "First": 1,
+                "Last": 6
+            },
+            {
+                "Description": "Playoff",
+                "First": 7,
+                "Last": 10
+            },
+            {
+                "Description": "MissedPlayoff",
+                "First": 11,
+                "Last": 12
+            },
+            {
+                "Description": "Relegation",
+                "First": 13,
+                "Last": 14
+            }
+        ],
+        "totalCount": 14,
+        "dataColumns": [
+            {
+                "name": "Rank",
+                "type": "integer",
+                "highlighted": false,
+                "group": ""
+            },
+            {
+                "name": "Team",
+                "type": "string",
+                "highlighted": false,
+                "group": ""
+            },
+            {
+                "name": "GP",
+                "type": "integer",
+                "highlighted": false,
+                "group": ""
+            },
+            {
+                "name": "RegW",
+                "type": "integer",
+                "highlighted": true,
+                "group": ""
+            },
+            {
+                "name": "NonRegW",
+                "type": "integer",
+                "highlighted": false,
+                "group": ""
+            },
+            {
+                "name": "RegL",
+                "type": "integer",
+                "highlighted": false,
+                "group": ""
+            },
+            {
+                "name": "G",
+                "type": "integer",
+                "highlighted": false,
+                "group": ""
+            },
+            {
+                "name": "GA",
+                "type": "integer",
+                "highlighted": false,
+                "group": ""
+            },
+            {
+                "name": "Diff",
+                "type": "integer",
+                "highlighted": true,
+                "group": ""
+            },
+            {
+                "name": "Points",
+                "type": "integer",
+                "highlighted": true,
+                "group": ""
+            }
+        ],
+        "defaultSortKey": {
+            "name": "Points",
+            "order": "DESC"
+        },
+        "sortableKeys": [
+            "GP",
+            "RegW",
+            "NonRegW",
+            "RegL",
+            "G",
+            "GA",
+            "Diff",
+            "Points"
+        ],
+        "teams": {
+            "FHC": {
+                "uuid": "087a-087aTQv9u",
+                "nationality": "SE",
+                "teamCode": "FHC",
+                "ownerSite": "FHC",
+                "ownerInstanceId": "fhc1_fhc",
+                "teamNames": {
+                    "code": "FHC",
+                    "short": "Frölunda",
+                    "long": "Frölunda HC",
+                    "full": "Frölunda Hockey Club"
+                },
+                "extIds": [
+                    {
+                        "id": 9,
+                        "extId": "FHC",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "fhc1-fhc-f7c59",
+                "slug": "087a-087aTQv9u__frolunda-hc",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/fhc1_fhc.svg"
+            },
+            "LHF": {
+                "uuid": "1a71-1a71gTHKh",
+                "nationality": "SE",
+                "teamCode": "LHF",
+                "ownerSite": "LHF",
+                "ownerInstanceId": "lhf1_lhf",
+                "teamNames": {
+                    "code": "LHF",
+                    "short": "Luleå",
+                    "long": "Luleå Hockey",
+                    "full": "Luleå Hockey",
+                    "codeSite": "LHF",
+                    "shortSite": "Luleå",
+                    "longSite": "Luleå Hockey",
+                    "fullSite": "Luleå Hockey"
+                },
+                "extIds": [
+                    {
+                        "id": 17,
+                        "extId": "LHF",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "lhf1-lhf-cc96a",
+                "slug": "1a71-1a71gTHKh__lulea-hockey",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/lhf1_lhf.svg"
+            },
+            "BIF": {
+                "uuid": "1ab8-1ab8bfj7N",
+                "nationality": "SE",
+                "teamCode": "BIF",
+                "ownerSite": "BIF",
+                "ownerInstanceId": "bif1_bif",
+                "teamNames": {
+                    "code": "BIF",
+                    "short": "Brynäs",
+                    "long": "Brynäs IF",
+                    "full": "Brynäs Idrottsförening",
+                    "codeSite": "BIF",
+                    "shortSite": "Brynäs",
+                    "longSite": "Brynäs IF SHL",
+                    "fullSite": "Brynäs IF SHL"
+                },
+                "extIds": [
+                    {
+                        "id": 3,
+                        "extId": "BIF",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "bif1-bif-713a5",
+                "slug": "1ab8-1ab8bfj7N__brynas-if",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/bif1_bif.svg"
+            },
+            "DIF": {
+                "uuid": "2459-2459QTs1f",
+                "nationality": "SE",
+                "teamCode": "DIF",
+                "ownerSite": "DIF",
+                "ownerInstanceId": "dif1_dif",
+                "teamNames": {
+                    "code": "DIF",
+                    "short": "Djurgården",
+                    "long": "Djurgården Hockey",
+                    "full": "Djurgården Hockey",
+                    "codeSite": "DIF Herr",
+                    "shortSite": "Djurgården Herr",
+                    "longSite": "Djurgården Hockey Herr",
+                    "fullSite": "Djurgården Hockey Herr"
+                },
+                "extIds": [
+                    {
+                        "id": 5,
+                        "extId": "DIF",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "dif1-dif-896f9",
+                "slug": "2459-2459QTs1f__djurgarden-hockey",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/dif1_dif.svg"
+            },
+            "IKO": {
+                "uuid": "259b-259bYGVIp",
+                "nationality": "SE",
+                "teamCode": "IKO",
+                "ownerSite": "IKO",
+                "ownerInstanceId": "iko1_iko",
+                "teamNames": {
+                    "code": "IKO",
+                    "short": "Oskarshamn",
+                    "long": "IK Oskarshamn",
+                    "full": "Ishockeyklubben Oskarshamn",
+                    "codeSite": "IKO",
+                    "shortSite": "Oskarshamn",
+                    "longSite": "IK Oskarshamn",
+                    "fullSite": "Ishockeyklubben Oskarshamn"
+                },
+                "extIds": [
+                    {
+                        "id": 820,
+                        "extId": "IKO",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "iko1-iko-891ab",
+                "slug": "259b-259bYGVIp__ik-oskarshamn",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/iko1_iko.svg"
+            },
+            "TIK": {
+                "uuid": "31d1-31d1NbSlR",
+                "nationality": "SE",
+                "teamCode": "TIK",
+                "ownerSite": "TIK",
+                "ownerInstanceId": "tik1_tik",
+                "teamNames": {
+                    "code": "TIK",
+                    "short": "Timrå",
+                    "long": "Timrå IK",
+                    "full": "Timrå Idrottsklubb",
+                    "codeSite": "TIK",
+                    "shortSite": "Timrå",
+                    "longSite": "Timrå IK",
+                    "fullSite": "Timrå Idrottsklubb"
+                },
+                "extIds": [
+                    {
+                        "id": 31,
+                        "extId": "TIK",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "tik1-tik-9d6bb",
+                "slug": "31d1-31d1NbSlR__timra-ik",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/tik1_tik.svg"
+            },
+            "LHC": {
+                "uuid": "41c4-41c4BiYZU",
+                "nationality": "SE",
+                "teamCode": "LHC",
+                "ownerSite": "LHC",
+                "ownerInstanceId": "lhc1_lhc",
+                "teamNames": {
+                    "code": "LHC",
+                    "short": "Linköping",
+                    "long": "Linköping HC",
+                    "full": "Linköping Hockey Club"
+                },
+                "extIds": [
+                    {
+                        "id": 15,
+                        "extId": "LHC",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "lhc1-lhc-e49a6",
+                "slug": "41c4-41c4BiYZU__linkoping-hc",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/lhc1_lhc.svg"
+            },
+            "SAIK": {
+                "uuid": "50e6-50e6DYeWM",
+                "nationality": "SE",
+                "teamCode": "SAIK",
+                "ownerSite": "SAIK",
+                "ownerInstanceId": "saik1_saik",
+                "teamNames": {
+                    "code": "SKE",
+                    "short": "Skellefteå",
+                    "long": "Skellefteå AIK",
+                    "full": "Skellefteå AIK Hockey",
+                    "codeSite": "SKE",
+                    "shortSite": "Skellefteå",
+                    "longSite": "Skellefteå AIK",
+                    "fullSite": "Skellefteå AIK Hockey"
+                },
+                "extIds": [
+                    {
+                        "id": 29,
+                        "extId": "SAIK",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "saik1-saik-ba23a",
+                "slug": "50e6-50e6DYeWM__skelleftea-aik",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/saik1_saik.svg"
+            },
+            "FBK": {
+                "uuid": "752c-752c12zB7Z",
+                "nationality": "SE",
+                "teamCode": "FBK",
+                "ownerSite": "FBK",
+                "ownerInstanceId": "fbk1_fbk",
+                "teamNames": {
+                    "code": "FBK",
+                    "short": "Färjestad",
+                    "long": "Färjestad BK",
+                    "full": "Färjestad Bollklubb"
+                },
+                "extIds": [
+                    {
+                        "id": 7,
+                        "extId": "FBK",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "fbk1-fbk-88173",
+                "slug": "752c-752c12zB7Z__farjestad-bk",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/fbk1_fbk.svg"
+            },
+            "OHK": {
+                "uuid": "82eb-82ebmgaJ8",
+                "nationality": "SE",
+                "teamCode": "OHK",
+                "ownerSite": "OHK",
+                "ownerInstanceId": "ohk1_ohk",
+                "teamNames": {
+                    "code": "ÖRE",
+                    "short": "Örebro",
+                    "long": "Örebro Hockey",
+                    "full": "Örebro Hockey"
+                },
+                "extIds": [
+                    {
+                        "id": 25,
+                        "extId": "OHK",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "ohk1-ohk-0ab2b",
+                "slug": "82eb-82ebmgaJ8__orebro-hockey",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/ohk1_ohk.svg"
+            },
+            "MIF": {
+                "uuid": "8e6f-8e6fUXJvi",
+                "nationality": "SE",
+                "teamCode": "MIF",
+                "ownerSite": "MIF",
+                "ownerInstanceId": "mif1_mif",
+                "teamNames": {
+                    "code": "MIF",
+                    "short": "Malmö",
+                    "long": "Malmö Redhawks",
+                    "full": "Malmö Redhawks",
+                    "codeSite": "MIF",
+                    "shortSite": "Redhawks",
+                    "longSite": "Malmö Redhawks",
+                    "fullSite": "Malmö Redhawks"
+                },
+                "extIds": [
+                    {
+                        "id": 21,
+                        "extId": "MIF",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "mif1-mif-d39e4",
+                "slug": "8e6f-8e6fUXJvi__malmo-redhawks",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/mif1_mif.svg"
+            },
+            "LIF": {
+                "uuid": "9541-95418PpkP",
+                "nationality": "SE",
+                "teamCode": "LIF",
+                "ownerSite": "LIF",
+                "ownerInstanceId": "lif1_lif",
+                "teamNames": {
+                    "code": "LIF",
+                    "short": "Leksand",
+                    "long": "Leksands IF",
+                    "full": "Leksands Idrottsförening",
+                    "codeSite": "LIF",
+                    "shortSite": "Leksand",
+                    "longSite": "Leksands IF Herr",
+                    "fullSite": "Leksands Idrottsförening"
+                },
+                "extIds": [
+                    {
+                        "id": 19,
+                        "extId": "LIF",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "lif1-lif-57923",
+                "slug": "9541-95418PpkP__leksands-if",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/lif1_lif.svg"
+            },
+            "RBK": {
+                "uuid": "ee93-ee93uy4oW",
+                "nationality": "SE",
+                "teamCode": "RBK",
+                "ownerSite": "RBK",
+                "ownerInstanceId": "rbk1_rbk",
+                "teamNames": {
+                    "code": "RBK",
+                    "short": "Rögle",
+                    "long": "Rögle BK",
+                    "full": "Rögle Bandyklubb",
+                    "codeSite": "RBK",
+                    "shortSite": "Rögle",
+                    "longSite": "Rögle BK",
+                    "fullSite": "Rögle Bandyklubb"
+                },
+                "extIds": [
+                    {
+                        "id": 27,
+                        "extId": "RBK",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "rbk1-rbk-539f1",
+                "slug": "ee93-ee93uy4oW__rogle-bk",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/rbk1_rbk.svg"
+            },
+            "VLH": {
+                "uuid": "fe02-fe02mf1FN",
+                "nationality": "SE",
+                "teamCode": "VLH",
+                "ownerSite": "VLH",
+                "ownerInstanceId": "vlh1_vlh",
+                "teamNames": {
+                    "code": "VLH",
+                    "short": "Växjö",
+                    "long": "Växjö Lakers",
+                    "full": "Växjö Lakers Hockey",
+                    "codeSite": "VLH Herr",
+                    "shortSite": "Växjö Lakers Herr",
+                    "longSite": "Växjö Lakers Herr",
+                    "fullSite": "Växjö Lakers Hockey Herr"
+                },
+                "extIds": [
+                    {
+                        "id": 33,
+                        "extId": "VLH",
+                        "locked": true,
+                        "extIdType": {
+                            "uuid": "165a-d5bcMnEuq",
+                            "code": "isa",
+                            "names": {
+                                "0": {
+                                    "language": "en",
+                                    "translation": "ISA / Statnet"
+                                }
+                            },
+                            "visible": true
+                        }
+                    }
+                ],
+                "graphicsLibrary": "vlh1-vlh-8a4d0",
+                "slug": "fe02-fe02mf1FN__vaxjo-lakers",
+                "teamMedia": "https://sportality.cdn.s8y.se/team-logos/vlh1_vlh.svg"
+            }
+        },
+        "stats": [
+            {
+                "GP": 52,
+                "Rank": 1,
+                "TeamCode": "RBK",
+                "Diff": 25,
+                "G": 154,
+                "GA": 129,
+                "NonRegL": 9,
+                "NonRegNonW": 9,
+                "NonRegT": 0,
+                "NonRegW": 5,
+                "OTL": 7,
+                "OTT": 0,
+                "OTW": 4,
+                "Points": 100,
+                "RegL": 11,
+                "RegT": 0,
+                "RegW": 27,
+                "SOL": 2,
+                "SOW": 1,
+                "info": {
+                    "code": "RBK",
+                    "id": "RBK"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 2,
+                "TeamCode": "LHF",
+                "Diff": 44,
+                "G": 161,
+                "GA": 117,
+                "NonRegL": 8,
+                "NonRegNonW": 8,
+                "NonRegT": 0,
+                "NonRegW": 7,
+                "OTL": 5,
+                "OTT": 0,
+                "OTW": 4,
+                "Points": 97,
+                "RegL": 12,
+                "RegT": 0,
+                "RegW": 25,
+                "SOL": 3,
+                "SOW": 3,
+                "info": {
+                    "code": "LHF",
+                    "id": "LHF"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 3,
+                "TeamCode": "SAIK",
+                "Diff": 45,
+                "G": 167,
+                "GA": 122,
+                "NonRegL": 3,
+                "NonRegNonW": 3,
+                "NonRegT": 0,
+                "NonRegW": 5,
+                "OTL": 1,
+                "OTT": 0,
+                "OTW": 3,
+                "Points": 94,
+                "RegL": 17,
+                "RegT": 0,
+                "RegW": 27,
+                "SOL": 2,
+                "SOW": 2,
+                "info": {
+                    "code": "SKE",
+                    "id": "SAIK"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 4,
+                "TeamCode": "FHC",
+                "Diff": 16,
+                "G": 155,
+                "GA": 139,
+                "NonRegL": 4,
+                "NonRegNonW": 4,
+                "NonRegT": 0,
+                "NonRegW": 10,
+                "OTL": 2,
+                "OTT": 0,
+                "OTW": 8,
+                "Points": 87,
+                "RegL": 17,
+                "RegT": 0,
+                "RegW": 21,
+                "SOL": 2,
+                "SOW": 2,
+                "info": {
+                    "code": "FHC",
+                    "id": "FHC"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 5,
+                "TeamCode": "VLH",
+                "Diff": 9,
+                "G": 153,
+                "GA": 144,
+                "NonRegL": 7,
+                "NonRegNonW": 7,
+                "NonRegT": 0,
+                "NonRegW": 6,
+                "OTL": 5,
+                "OTT": 0,
+                "OTW": 3,
+                "Points": 85,
+                "RegL": 17,
+                "RegT": 0,
+                "RegW": 22,
+                "SOL": 2,
+                "SOW": 3,
+                "info": {
+                    "code": "VLH",
+                    "id": "VLH"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 6,
+                "TeamCode": "FBK",
+                "Diff": 4,
+                "G": 153,
+                "GA": 149,
+                "NonRegL": 4,
+                "NonRegNonW": 4,
+                "NonRegT": 0,
+                "NonRegW": 6,
+                "OTL": 4,
+                "OTT": 0,
+                "OTW": 3,
+                "Points": 82,
+                "RegL": 20,
+                "RegT": 0,
+                "RegW": 22,
+                "SOL": 0,
+                "SOW": 3,
+                "info": {
+                    "code": "FBK",
+                    "id": "FBK"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 7,
+                "TeamCode": "OHK",
+                "Diff": 21,
+                "G": 144,
+                "GA": 123,
+                "NonRegL": 5,
+                "NonRegNonW": 5,
+                "NonRegT": 0,
+                "NonRegW": 8,
+                "OTL": 3,
+                "OTT": 0,
+                "OTW": 5,
+                "Points": 81,
+                "RegL": 19,
+                "RegT": 0,
+                "RegW": 20,
+                "SOL": 2,
+                "SOW": 3,
+                "info": {
+                    "code": "ÖRE",
+                    "id": "OHK"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 8,
+                "TeamCode": "LIF",
+                "Diff": -6,
+                "G": 148,
+                "GA": 154,
+                "NonRegL": 7,
+                "NonRegNonW": 7,
+                "NonRegT": 0,
+                "NonRegW": 4,
+                "OTL": 3,
+                "OTT": 0,
+                "OTW": 3,
+                "Points": 75,
+                "RegL": 21,
+                "RegT": 0,
+                "RegW": 20,
+                "SOL": 4,
+                "SOW": 1,
+                "info": {
+                    "code": "LIF",
+                    "id": "LIF"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 9,
+                "TeamCode": "IKO",
+                "Diff": -23,
+                "G": 140,
+                "GA": 163,
+                "NonRegL": 6,
+                "NonRegNonW": 6,
+                "NonRegT": 0,
+                "NonRegW": 3,
+                "OTL": 4,
+                "OTT": 0,
+                "OTW": 1,
+                "Points": 72,
+                "RegL": 23,
+                "RegT": 0,
+                "RegW": 20,
+                "SOL": 2,
+                "SOW": 2,
+                "info": {
+                    "code": "IKO",
+                    "id": "IKO"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 10,
+                "TeamCode": "BIF",
+                "Diff": -12,
+                "G": 126,
+                "GA": 138,
+                "NonRegL": 6,
+                "NonRegNonW": 6,
+                "NonRegT": 0,
+                "NonRegW": 6,
+                "OTL": 3,
+                "OTT": 0,
+                "OTW": 5,
+                "Points": 69,
+                "RegL": 23,
+                "RegT": 0,
+                "RegW": 17,
+                "SOL": 3,
+                "SOW": 1,
+                "info": {
+                    "code": "BIF",
+                    "id": "BIF"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 11,
+                "TeamCode": "LHC",
+                "Diff": -21,
+                "G": 121,
+                "GA": 142,
+                "NonRegL": 5,
+                "NonRegNonW": 5,
+                "NonRegT": 0,
+                "NonRegW": 8,
+                "OTL": 4,
+                "OTT": 0,
+                "OTW": 4,
+                "Points": 69,
+                "RegL": 23,
+                "RegT": 0,
+                "RegW": 16,
+                "SOL": 1,
+                "SOW": 4,
+                "info": {
+                    "code": "LHC",
+                    "id": "LHC"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 12,
+                "TeamCode": "MIF",
+                "Diff": -19,
+                "G": 134,
+                "GA": 153,
+                "NonRegL": 8,
+                "NonRegNonW": 8,
+                "NonRegT": 0,
+                "NonRegW": 4,
+                "OTL": 4,
+                "OTT": 0,
+                "OTW": 2,
+                "Points": 67,
+                "RegL": 23,
+                "RegT": 0,
+                "RegW": 17,
+                "SOL": 4,
+                "SOW": 2,
+                "info": {
+                    "code": "MIF",
+                    "id": "MIF"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 13,
+                "TeamCode": "DIF",
+                "Diff": -39,
+                "G": 130,
+                "GA": 169,
+                "NonRegL": 6,
+                "NonRegNonW": 6,
+                "NonRegT": 0,
+                "NonRegW": 5,
+                "OTL": 5,
+                "OTT": 0,
+                "OTW": 2,
+                "Points": 58,
+                "RegL": 27,
+                "RegT": 0,
+                "RegW": 14,
+                "SOL": 1,
+                "SOW": 3,
+                "info": {
+                    "code": "DIF",
+                    "id": "DIF"
+                },
+                "Team": 0
+            },
+            {
+                "GP": 52,
+                "Rank": 14,
+                "TeamCode": "TIK",
+                "Diff": -44,
+                "G": 133,
+                "GA": 177,
+                "NonRegL": 4,
+                "NonRegNonW": 4,
+                "NonRegT": 0,
+                "NonRegW": 5,
+                "OTL": 1,
+                "OTT": 0,
+                "OTW": 4,
+                "Points": 56,
+                "RegL": 29,
+                "RegT": 0,
+                "RegW": 14,
+                "SOL": 3,
+                "SOW": 1,
+                "info": {
+                    "code": "TIK",
+                    "id": "TIK"
+                },
+                "Team": 0
+            }
+        ],
+        "type": "team"
+    }
+]
